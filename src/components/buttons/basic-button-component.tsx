@@ -1,4 +1,4 @@
-import styles from "./basic.button.component.module.css"
+import styles from './basic-button-component.module.css'
 
 type ButtonProps = {
   text: string,
@@ -6,9 +6,11 @@ type ButtonProps = {
 }
 
 export const BasicButtonComponent = (props: ButtonProps) => {
+
+  const handleClick = () => alert(props.alertMessage)
   return (
     <>
-      <button className={styles.button} onClick={() => alert(props.alertMessage)}>
+      <button className={styles.button} onClick={handleClick}>
         {props.text}
       </button>
     </>

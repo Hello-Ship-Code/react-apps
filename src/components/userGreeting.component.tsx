@@ -4,7 +4,7 @@ type userGreetingProps = {
   userName: string
 }
 
-export const UserGreetingComponent = (props: userGreetingProps) => {
+export const UserGreeting = (props: userGreetingProps) => {
   // return (
   //   <>
   //     {props.isLoggedIn ?

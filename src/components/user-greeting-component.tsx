@@ -1,12 +1,12 @@
 
-type userGreeting = React.FC<
+type UserGreeting = React.FC<
   {
     isLoggedIn: boolean
     userName: string
   }
 >
 
-export const UserGreeting: userGreeting = (props) => {
+export const UserGreeting: UserGreeting = (props) => {
   const welcomeMessage = <h2>Welcome, {props.userName}</h2>
   const loginPrompt = <h2>Please login</h2>
 

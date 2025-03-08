@@ -1,4 +1,4 @@
-import { BasicButtonComponent } from '../buttons/basic.button.component';
+import { BasicButtonComponent } from '../buttons/basic-button-component';
 
 import './card.component.css'
 

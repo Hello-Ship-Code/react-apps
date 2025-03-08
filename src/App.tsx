@@ -2,7 +2,7 @@
 // import { FoodsComponent } from "./components/food.component"
 import { FooterComponent } from "./components/footer.component"
 import { HeaderComponent } from "./components/header.component"
-import { UserGreeting } from "./components/userGreeting.component"
+import { UserGreeting } from "./components/user_greeting.component"
 
 export const App = () => {
 

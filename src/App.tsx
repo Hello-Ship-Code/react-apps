@@ -9,7 +9,8 @@ export const App = () => {
       {/* < FoodsComponent /> */}
       {/* < CardComponent /> */}
       {/* < FooterComponent /> */}
-      < UseStateComponent />
+      {/* < UseStateComponent /> */}
+
     </>
   )
 }

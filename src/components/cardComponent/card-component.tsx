@@ -44,7 +44,7 @@ export const CardComponent = () => {
           <img className="card-image" src={card.img} alt="profilePicture"></img>
           <h1 className='card-title'>{card.title}</h1>
           <p className='card-text'>{card.text}</p>
-          <BasicButtonComponent text="clickMe" alertMessage={card.alertMessage} />
+          <BasicButtonComponent text="click me" alertMessage={card.alertMessage} />
         </div>
       ))
       }

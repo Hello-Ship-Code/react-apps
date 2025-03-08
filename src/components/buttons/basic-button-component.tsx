@@ -14,7 +14,8 @@ export const BasicButtonComponent = (props: ButtonProps) => {
     </>
   )
 }
-// should install propTypes package waste of time. We are using TS
+
+// Instead use react.FC
 
 // BasicButtonComponent.propTypes = {
 //   text: propTypes.string,

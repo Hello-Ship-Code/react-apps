@@ -1,4 +1,4 @@
-import { UseStateComponent } from "./components/use-state/use-state.component"
+import { MyComponent } from "./components/events/MyComponents"
 
 export const App = () => {
 
@@ -10,7 +10,7 @@ export const App = () => {
       {/* < CardComponent /> */}
       {/* < FooterComponent /> */}
       {/* < UseStateComponent /> */}
-
+      < MyComponent />
     </>
   )
 }

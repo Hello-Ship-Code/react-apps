@@ -2,6 +2,9 @@
 
 Welcome to **React Apps**! 🎉 This repository contains my **first-time React projects** and practice apps as I explore the world of React. ⚛️  
 
+### test
+[![accord project](https://img.shields.io/badge/powered%20by-accord%20project-19C6C8.svg)](https://www.accordproject.org/)
+
 ### 📌 What’s Inside?  
 - 🏗️ **Basic React components**  
 - 🎨 **Styled components with CSS**  

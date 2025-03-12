@@ -1,4 +1,4 @@
-import { ColorPicker } from "./components/colorPicker/colorPicker"
+import { UseStateComponent } from "./components/use-state/use-state.component"
 
 export const App = () => {
 
@@ -9,9 +9,9 @@ export const App = () => {
       {/* < FoodsComponent /> */}
       {/* < CardComponent /> */}
       {/* < FooterComponent /> */}
-      {/* < UseStateComponent /> */}
+      < UseStateComponent />
       {/* < MyComponent /> */}
-      < ColorPicker />
+      {/* < ColorPicker /> */}
     </>
   )
 }

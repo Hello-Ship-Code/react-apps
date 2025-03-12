@@ -1,4 +1,4 @@
-import { MyComponent } from "./components/events/MyComponents"
+import { ColorPicker } from "./components/colorPicker/colorPicker"
 
 export const App = () => {
 
@@ -10,7 +10,8 @@ export const App = () => {
       {/* < CardComponent /> */}
       {/* < FooterComponent /> */}
       {/* < UseStateComponent /> */}
-      < MyComponent />
+      {/* < MyComponent /> */}
+      < ColorPicker />
     </>
   )
 }

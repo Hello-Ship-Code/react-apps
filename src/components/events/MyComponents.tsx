@@ -12,7 +12,6 @@ export const MyComponent = () => {
     <>
       <input value={name} onChange={handleOnChange} />
       <p>Name: {name}</p>
-      <button type="submit">Add</button>
     </>
   )
 }

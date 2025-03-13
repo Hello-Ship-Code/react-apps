@@ -5,7 +5,7 @@ type ButtonProps = {
   alertMessage: string
 }
 
-export const BasicButtonComponent = (props: ButtonProps) => {
+export const BasicButtonComponent: React.FC<ButtonProps> = (props) => {
 
   const handleClick = () => alert(props.alertMessage)
   return (

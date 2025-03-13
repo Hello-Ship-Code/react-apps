@@ -1,5 +1,5 @@
 
-export const FooterComponent = () => {
+export const FooterComponent: React.FC = () => {
 
   return (
     <footer>

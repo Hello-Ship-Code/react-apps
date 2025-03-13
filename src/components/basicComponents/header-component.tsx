@@ -1,5 +1,5 @@
 
-export const HeaderComponent = () => {
+export const HeaderComponent: React.FC = () => {
   return (
     <header>
       <h1>My first React Website</h1>

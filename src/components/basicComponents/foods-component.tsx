@@ -1,7 +1,7 @@
 
 export const FoodsComponent = () => {
 
-  const foodItems = ['Apple', 'Banana', 'Grapes']
+  const foodItems: string[] = ['Apple', 'Banana', 'Grapes']
 
   return (
     <ul>

@@ -1,4 +1,4 @@
-import { UpdateObject } from "./components/object/updateObject"
+import { UpdateObject } from "./practice/components/object/updateObject"
 
 export const App = () => {
 

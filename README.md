@@ -1,10 +1,10 @@
-## 🚀 Vite + React + TS Apps 🎨  
+## 🚀 Vite + React + TS Apps + Tailwindcss 🎨  
 
 Welcome to **React Apps**! 🎉 This repository contains my **first-time React projects** and practice apps as I explore the world of React. ⚛️  
 
 ### 📌 What’s Inside?  
 - 🏗️ **Basic React components**  
-- 🎨 **Styled components with CSS**  
+- 🎨 **Styled components with Tailwindcss**  
 - 🛠️ **Props & State handling**  
 - 🔥 **React + TypeScript practice**  
 

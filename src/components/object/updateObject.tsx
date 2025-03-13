@@ -1,5 +1,6 @@
 import { useState } from "react"
 
+import { addNewItem } from "../../utils/addNewItem"
 import { handleOnChange } from "../../utils/handleChange"
 
 export type Car = {
@@ -21,19 +22,21 @@ export const UpdateObject = () => {
 
   // }
 
-  const handleNewCars = () => {
-    if (newCar.make && newCar.model && newCar.year) {
-      setCar((prev) => [...prev, newCar])
-      setNewCar({ make: '', model: '', year: '' })
-    }
-  }
-
   const [car, setCar] = useState<Car[]>([])
   const [newCar, setNewCar] = useState<Car>({
     make: '',
     model: '',
     year: ''
   })
+
+  const clearNewCar = () => setNewCar({ make: '', model: '', year: '' })
+
+  const handleNewCars = () => {
+    if (newCar.make && newCar.model && newCar.year) {
+      addNewItem(newCar, setCar, clearNewCar, ['make', 'model', 'year'])
+
+    }
+  }
 
   return (
     <>

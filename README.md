@@ -1,4 +1,4 @@
-## 🚀 Vite + React + TS Apps + Tailwindcss 🎨  
+## 🚀 Vite + React + TS + Tailwindcss Apps 🎨  
 
 Welcome to **React Apps**! 🎉 This repository contains my **first-time React projects** and practice apps as I explore the world of React. ⚛️  
 

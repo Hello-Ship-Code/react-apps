@@ -1,9 +1,10 @@
-import { NavBar } from "../components/navbar/nav-bar"
+import { Header } from "../components/header/header"
 
 export const HomePage = () => {
   return (
     <>
-      <NavBar />
+      <Header />
+      <h1>Hello from Home page</h1>
     </>
 
   )

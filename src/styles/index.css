@@ -1,1 +1,44 @@
 @import "tailwindcss";
+
+@theme {
+  --color-primary-50: #e6edf5;    /* Lightest tint */
+  --color-primary-100: #cfdbe8;   /* Slightly lighter */
+  --color-primary-200: #9db5cd;   /* Soft pastel tone */
+  --color-primary-300: #6d8fb2;   /* Balanced midpoint */
+  --color-primary-400: #416b99;   /* Deep yet soft */
+  --color-primary-500: #143D60;   /* Primary */
+  --color-primary-600: #112f4a;   /* Darker */
+  --color-primary-700: #0d2336;   /* Strong dark */
+  --color-primary-800: #091723;   /* Deep shadow */
+  --color-primary-900: #040b11;   /* Darkest */
+
+  --color-secondary-100: #d9f0d0;
+  --color-secondary-200: #bce3ad;
+  --color-secondary-300: #9fd68a;
+  --color-secondary-400: #82c966;
+  --color-secondary-500: #A0C878;  /* Original secondary */
+  --color-secondary-600: #6da14e;
+  --color-secondary-700: #527b3b;
+  --color-secondary-800: #375528;
+  --color-secondary-900: #1d2e15;
+
+  --color-accent-100: #ffd8b9;
+  --color-accent-200: #ffb98c;
+  --color-accent-300: #ff9a5e;
+  --color-accent-400: #ff7b30;
+  --color-accent-500: #EB5B00;    /* Original accent */
+  --color-accent-600: #b74800;
+  --color-accent-700: #833500;
+  --color-accent-800: #502200;
+  --color-accent-900: #210f00;
+
+  --color-background-100: #f5f9e0;
+  --color-background-200: #e9f2c1;
+  --color-background-300: #ddeba3;
+  --color-background-400: #d0e485;
+  --color-background-500: #DDEB9D;  /* Original background */
+  --color-background-600: #a6b878;
+  --color-background-700: #7d8b57;
+  --color-background-800: #545e37;
+  --color-background-900: #2b3117;
+}

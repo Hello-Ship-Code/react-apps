@@ -1,14 +1,14 @@
 import React from 'react';
 
 type HeadingTagProps = {
-  text: string;
+  children: React.ReactNode;
   className?: string; // Optional className for styling
 };
 
-export const HeadingTag: React.FC<HeadingTagProps> = (props) => {
+export const HeadingTag: React.FC<HeadingTagProps> = ({ children, className }) => {
   return (
-    <h1 className={props.className}>
-      {props.text}
+    <h1 className={className}>
+      {children}
     </h1>
   );
 };

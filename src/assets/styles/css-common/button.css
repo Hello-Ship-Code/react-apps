@@ -1,0 +1,33 @@
+.basicClasses {
+  @apply px-4 rounded font-medium py-2 transition-all
+}
+
+/* Variant Classes */
+.primary-btn{
+  @apply bg-blue-500 text-white hover:bg-blue-600;
+}
+
+.secondary-btn {
+  @apply bg-gray-500 text-white hover:bg-gray-600;
+}
+
+.danger-btn {
+  @apply bg-red-500 text-white hover:bg-red-600;
+}
+
+.outline-btn {
+  @apply border border-gray-500 text-gray-500 hover:bg-gray-100;
+}
+
+/* Size Classes */
+.small {
+  @apply text-sm px-2 py-1;
+}
+
+.medium {
+  @apply text-base px-4 py-2;
+}
+
+.large {
+  @apply text-lg px-6 py-3;
+}

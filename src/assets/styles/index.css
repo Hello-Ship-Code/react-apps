@@ -1,6 +1,14 @@
 @import "tailwindcss";
 
+
+
+.btn-danger{ @apply bg-red-500 text-white hover:bg-red-600 } 
+.btn-outline { @apply border border-gray-500 text-gray-500 hover:bg-gray-100 }
+
+
+
 @theme {
+
   --color-primary-50: #e6edf5;    /* Lightest tint */
   --color-primary-100: #cfdbe8;   /* Slightly lighter */
   --color-primary-200: #9db5cd;   /* Soft pastel tone */

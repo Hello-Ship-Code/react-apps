@@ -1,9 +1,11 @@
 import { Header } from "../components/header/header"
+import { HeadingTag } from "../components/html-element-reference/text-content/heading-tag"
 
 export const WatchesApp = () => {
   return (
     <>
       <Header />
-      <h1>Hello from watch App</h1></>
+      < HeadingTag text="Hello from Watch Page" />
+    </>
   )
 }

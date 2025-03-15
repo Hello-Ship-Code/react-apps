@@ -1,10 +1,11 @@
 import { Header } from "../components/header/header"
+import { HeadingTag } from "../components/html-element-reference/text-content/heading-tag"
 
 export const HomePage = () => {
   return (
     <>
       <Header />
-      <h1>Hello from Home page</h1>
+      < HeadingTag text="Hello from home Page" />
     </>
 
   )

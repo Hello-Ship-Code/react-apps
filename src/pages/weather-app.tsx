@@ -1,9 +1,10 @@
 import { Header } from "../components/header/header"
+import { HeadingTag } from "../components/html-element-reference/text-content/heading-tag"
 
 export const WeatherApi = () => {
   return (<>
     <Header />
-    <h1>Hello from weather Api</h1>
+    < HeadingTag text="Hello from weather Page" />
   </>
   )
 }

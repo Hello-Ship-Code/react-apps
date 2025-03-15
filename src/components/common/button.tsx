@@ -1,7 +1,5 @@
 import clsx from 'clsx';
 
-import '../../assets/styles/css-common/button.css';
-
 export type ButtonNavProps = {
   text: string;
   className?: string;

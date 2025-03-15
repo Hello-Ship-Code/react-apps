@@ -1,14 +1,14 @@
 .basicClasses {
-  @apply px-4 rounded font-medium py-2 transition-all
+  @apply px-4 py-2 rounded font-medium transition-all;
 }
 
 /* Variant Classes */
-.primary-btn{
-  @apply bg-blue-500 text-white hover:bg-blue-600;
+.primary-btn {
+  @apply bg-primary-500 rounded text-white hover:bg-primary-400;
 }
 
 .secondary-btn {
-  @apply bg-gray-500 text-white hover:bg-gray-600;
+  @apply bg-secondary-500 text-white hover:bg-secondary-400;
 }
 
 .danger-btn {

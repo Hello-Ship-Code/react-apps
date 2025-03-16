@@ -1,6 +1,10 @@
 @import "tailwindcss";
 @import './css-common//button.css';
 
+body{
+  font: mono
+}
+
 @theme {
 
   --color-primary-50: #e6edf5;    /* Lightest tint */

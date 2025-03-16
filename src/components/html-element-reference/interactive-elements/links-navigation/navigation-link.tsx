@@ -7,7 +7,7 @@ export type LinkNavProps = {
   newTab?: boolean
 }
 
-export const NavLink: React.FC<LinkNavProps> = ({ link, text, className = "", newTab = false }) => {
+export const CustomNavLink: React.FC<LinkNavProps> = ({ link, text, className = "", newTab = false }) => {
   return (
     <>
       <a

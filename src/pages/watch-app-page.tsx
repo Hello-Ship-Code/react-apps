@@ -1,11 +1,17 @@
-import { Header } from "../components/html-element-reference/semantic-elements/header/header"
 import { HeadingTag } from "../components/html-element-reference/text-content/heading-tag"
 
+import { DateTime } from "../utils/date-time-utils/date-time"
+
 export const WatchesApp = () => {
+
   return (
     <>
-      <Header />
-      < HeadingTag>Hello from watch Page </HeadingTag>
+      <div className="app-bar-fix flex flex-col items-center justify-center bg-gradient-to-br from-primary-500 to-secondary-500 text-white">
+        < HeadingTag className="text-2xl lg:text-4xl">Welcome to watch app </HeadingTag>
+
+        <div>{<DateTime text="day" />},  {<DateTime text="month" />} {<DateTime text="date" />}</div>
+        <div>12:00:00</div>
+      </div>
     </>
   )
 }

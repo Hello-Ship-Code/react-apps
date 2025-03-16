@@ -1,11 +1,9 @@
-import { Footer } from "../components/html-element-reference/semantic-elements/footer/footer";
-import { Header } from "../components/html-element-reference/semantic-elements/header/header";
 
 export const AboutPage = () => {
   return (
     <>
-      <Header />
-      <div className="flex flex-col text-secondary-100 items-center justify-center h-[32rem] bg-primary-500 p-8">
+
+      <div className="flex flex-col text-secondary-100 items-center justify-center app-bar-fix bg-primary-500 p-8">
 
         <h1 className="text-4xl font-bold mb-6">🚀 Vite + React + TS + Tailwindcss Apps 🎨</h1>
         <p className="text-lg text-center max-w-2xl mb-4">
@@ -40,7 +38,6 @@ export const AboutPage = () => {
           </p>
         </div>
       </div>
-      <Footer />
     </>
   );
 

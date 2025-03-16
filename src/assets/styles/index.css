@@ -5,6 +5,10 @@ body{
   font: mono
 }
 
+.app-bar-fix{
+@apply h-screen pt-[60px] pb-[30px] px-4
+}
+
 @theme {
 
   --color-primary-50: #e6edf5;    /* Lightest tint */

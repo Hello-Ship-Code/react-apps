@@ -4,13 +4,14 @@ import { HeadingTag } from "../../text-content/heading-tag";
 import { DateTime } from "../../../../utils/date-time-utils/date-time";
 
 export const Footer = () => (
-  <footer className="fixed bottom-0 left-0 w-full  bg-background-300 p-3 ">
+  <footer className=" w-full  bg-background-300 p-3 ">
     <HeadingTag className="font-mono flex justify-center ">
 
-      < img src="https://img.icons8.com/?size=100&id=106562&format=png&color=000000"
+      {/* < img src="https://img.icons8.com/?size=100&id=106562&format=png&color=000000"
         className="object-cover h-5 w-5"
-      />
+      /> */}
 
+      <p>🐙 Connect with Me:</p>
       <CustomNavLink
         text="Hello-Ship-Code"
         link="https://github.com/Hello-Ship-Code"

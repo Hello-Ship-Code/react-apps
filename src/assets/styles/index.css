@@ -6,7 +6,8 @@ body{
 }
 
 .app-bar-fix{
-@apply h-screen pt-[60px] pb-[30px] px-4
+  @apply min-h-screen pt-[60px] pb-[30px] px-4 overflow-y-auto;
+
 }
 
 .hero-bg{

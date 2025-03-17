@@ -19,7 +19,10 @@ type WeatherData = {
 };
 
 export const WeatherApi = () => {
-  const API_KEY = '67a009b4873d410386d161225251603';
+
+  const API_KEY = import.meta.env.VITE_WEATHER_API_KEY;
+  const WEATHER_API = import.meta.env.VITE_WEATHER_API_URL;
+
   const [weather, setWeather] = useState<WeatherData | null>(null);
   const [loading, setLoading] = useState(true);
   const [inputValue, setInputValue] = useState("");
@@ -30,7 +33,7 @@ export const WeatherApi = () => {
     setLoading(true);
     try {
       const result = await fetch(
-        `https://api.weatherapi.com/v1/current.json?key=${API_KEY}&q=${inputValue}`
+        `${WEATHER_API}/current.json?key=${API_KEY}&q=${inputValue}`
       );
 
       if (!result.ok) {

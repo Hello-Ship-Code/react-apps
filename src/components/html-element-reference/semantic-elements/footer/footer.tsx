@@ -7,6 +7,7 @@ export const Footer = () => (
   <footer className=" w-full  bg-background-300 p-3 ">
     <HeadingTag className="font-mono flex justify-center ">
 
+      {/* github Logo */}
       {/* < img src="https://img.icons8.com/?size=100&id=106562&format=png&color=000000"
         className="object-cover h-5 w-5"
       /> */}

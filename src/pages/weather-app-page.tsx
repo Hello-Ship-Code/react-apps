@@ -12,6 +12,9 @@ type WeatherData = {
   current: {
     temp_c: number;
     condition: { text: string, icon: string };
+    feelslike_c: number
+    windchill_c: number
+    gust_kph: number
   };
 };
 
@@ -65,6 +68,9 @@ export const WeatherApi = () => {
 
           <p className="text-lg text-primary-700 flex items-center gap-2">
             🌡️ {weather.current.temp_c}°C - {weather.current.condition.text} <img className="h-6 w-6]" src={weather.current.condition.icon} alt="🌁" />
+          </p>
+          <p className="text-lg text-primary-700 flex items-center gap-2">
+            🥶 {weather.current.feelslike_c}°C - {weather.current.gust_kph} kph 🌪️
           </p>
         </div>
       ) : (

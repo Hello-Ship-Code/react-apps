@@ -7,8 +7,7 @@ export const ErrorPage = () => {
 
   return (
     <>
-
-      < HeadingTag className='app-bar-fix'>caught you looking for something: ${param || 'unknown'} </HeadingTag>
+      < HeadingTag className='app-bar-fix hero-bg hero-center'>caught you looking for something: ${param || 'unknown'} </HeadingTag>
     </>
   );
 }; 

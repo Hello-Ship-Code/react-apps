@@ -3,7 +3,7 @@ export const AboutPage = () => {
   return (
     <>
 
-      <div className="flex flex-col text-secondary-100 items-center justify-center app-bar-fix bg-primary-500 p-8">
+      <div className="app-bar-fix hero-bg hero-center">
 
         <h1 className="text-4xl font-bold mb-6">🚀 Vite + React + TS + Tailwindcss Apps 🎨</h1>
         <p className="text-lg text-center max-w-2xl mb-4">

@@ -1,5 +1,6 @@
 import React, { useEffect, useState } from "react"
 
+// create hook instead of Functional component
 export type DateTimeProps = {
   text: 'year' | 'month' | 'day' | 'date' | 'time'
 }

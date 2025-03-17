@@ -4,7 +4,7 @@ export const TodoApp = () => {
   return (
     <>
 
-      < HeadingTag className="app-bar-fix">Hello from Todo Page </HeadingTag>
+      < HeadingTag className="app-bar-fix hero-bg hero-center">Hello from Todo Page </HeadingTag>
     </>
   )
 }

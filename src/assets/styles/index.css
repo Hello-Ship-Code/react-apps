@@ -9,6 +9,14 @@ body{
 @apply h-screen pt-[60px] pb-[30px] px-4
 }
 
+.hero-bg{
+  @apply bg-gradient-to-br from-primary-500 to-secondary-500 text-white
+}
+
+.hero-center{
+  @apply flex flex-col items-center justify-center
+}
+
 @theme {
 
   --color-primary-50: #e6edf5;    /* Lightest tint */
